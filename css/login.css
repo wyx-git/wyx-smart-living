@@ -177,11 +177,12 @@
 /*
 center 页面
 */
-.top-list2{
+.top-list2 {
     width: 100%;
     height: 20%;
 }
-.top-button-2{
+
+.top-button-2 {
     z-index: 200;
     position: absolute;
     top: 3%;
@@ -195,12 +196,13 @@ center 页面
     color: #737373;
     text-align: center;
 }
-.top-forget{
+
+.top-forget {
     position: absolute;
-    top:3%;
+    top: 3%;
     right: 5%;
     width: 20%;
-    height:26px;
+    height: 26px;
     border-radius: 13px;
     background: #fff;
     border: 2px solid #cbad97;
@@ -209,41 +211,48 @@ center 页面
     text-align: center;
     color: #5e6061;
 }
-.top-print{
+
+.top-print {
     position: absolute;
-    top:60px;
+    top: 60px;
     width: 100%;
     height: 15%;
 }
-.hide{
+
+.hide {
     margin: 0 auto;
     width: 40px;
     height: 32px;
     background: url("../img/hide.png") no-repeat center;
     background-size: 100%;
 }
-.top-print ul{
+
+.top-print ul {
     list-style: none;
     padding: 0;
     width: 100%;
 }
-.top-print ul li:nth-child(1){
+
+.top-print ul li:nth-child(1) {
     font-size: 14px;
     text-align: center;
     line-height: 150%;
     color: #5e6061;
 }
-.top-print ul li:nth-child(2){
+
+.top-print ul li:nth-child(2) {
     font-size: 12px;
     text-align: center;
     color: #a2a2a2;
     line-height: 150%;
 }
-.passward-print{
+
+.passward-print {
     width: 100%;
     height: 70%;
 }
-.passward-number-list{
+
+.passward-number-list {
     width: 60%;
     height: 10%;
     margin: 0 auto;
@@ -251,18 +260,20 @@ center 页面
     display: flex;
     padding: 0;
 }
-.passward-number{
+
+.passward-number {
     font-size: 24px;
     padding-top: 20px;
     width: 12%;
     height: 100%;
-    margin:0 5px;
+    margin: 0 5px;
     text-align: center;
     line-height: 150%;
     text-underline: #00f0ff;
     color: #fff;
 }
-.passward-number::after{
+
+.passward-number::after {
     content: "";
     position: absolute;
     width: 30px;
@@ -272,7 +283,8 @@ center 页面
     transform-style: preserve-3d;
     transform: translateY(30px) translateX(-15px);
 }
-.passward-print ul{
+
+.passward-print ul {
     list-style: none;
     width: 100%;
     height: 10%;
@@ -283,18 +295,21 @@ center 页面
     text-align: center;
     line-height: 150%;
 }
-.number-button-list{
+
+.number-button-list {
     width: 80%;
     margin: 0 auto;
     height: 75%;
 }
-.list{
+
+.list {
     width: 100%;
     height: 25%;
     display: flex;
     justify-content: space-between;
 }
-.number-button{
+
+.number-button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -306,7 +321,8 @@ center 页面
     color: #5b5b5b;
     line-height: 50px;
 }
-.number-button:hover{
+
+.number-button:hover {
     box-shadow: 0 0 5px 5px #b7a497;
 
 }
