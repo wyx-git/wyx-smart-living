@@ -4,8 +4,8 @@ let m = 0;
 for (let i = 0; i < numberButton.length; i++) {
     numberButton[i].onclick = function () {
         if (i === 9) {
-            passwardNumber[m].style.color = "#fff";
-            m--;
+            m=m-1;
+                passwardNumber[m].style.color = "#fff";
         }
         else if (i === 11) {
             for (m >= 0; m--;) {
