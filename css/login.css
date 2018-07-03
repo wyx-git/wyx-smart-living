@@ -37,8 +37,8 @@
     height: 20px;
     border-radius: 50%;
     border: 1px solid #bdbdbd;
-    background: url("../img/putdown.png")no-repeat center;
-    background-size: 60% ;
+    background: url("../img/putdown.png") no-repeat center;
+    background-size: 60%;
 }
 
 .top-img {
@@ -191,8 +191,8 @@ center 页面
     height: 20px;
     border-radius: 50%;
     border: 1px solid #bdbdbd;
-    background: url("../img/putdown.png")no-repeat center;
-    background-size: 60% ;
+    background: url("../img/putdown.png") no-repeat center;
+    background-size: 60%;
 }
 
 .top-forget {
@@ -325,27 +325,32 @@ center 页面
     box-shadow: 0 0 5px 5px #b7a497;
 
 }
-.header{
+
+.header {
     width: 100%;
     height: 50%;
 }
-.header-button{
+
+.header-button {
     display: flex;
     justify-content: space-around;
     width: 100%;
     height: 150px;
 }
-.button{
+
+.button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background: #734e33;
     border: 5px solid #a28a79;
 }
-.button:hover{
+
+.button:hover {
     box-shadow: 0 0 5px 5px #e3e3e3;
 }
-.pic-password{
+
+.pic-password {
     width: 185px;
     height: 50px;
     margin: 15% auto 25%;
@@ -353,14 +358,16 @@ center 页面
     border: 2px solid #cacaca;
     display: flex;
 }
-.pic-logo{
+
+.pic-logo {
     width: 25px;
     height: 25px;
-    background: url("../img/pic-logo.png")no-repeat center;
+    background: url("../img/pic-logo.png") no-repeat center;
     background-size: 100%;
     margin: 12px 0 13px 10px;
 }
-.pic-password ul{
+
+.pic-password ul {
     list-style: none;
     display: block;
     margin: 0;
@@ -368,7 +375,8 @@ center 页面
     height: 100%;
     padding: 12px 5px;
 }
-.pic-password ul li:nth-child(1){
+
+.pic-password ul li:nth-child(1) {
     font-size: 12px;
     text-align: left;
     line-height: 100%;
@@ -376,7 +384,8 @@ center 页面
     border-left: 2px solid #cacaca;
     padding-left: 5px;
 }
-.pic-password ul li:nth-child(2){
+
+.pic-password ul li:nth-child(2) {
     font-size: 12px;
     opacity: 0.6;
     line-height: 100%;
